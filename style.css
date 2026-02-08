@@ -1,0 +1,35 @@
+body {
+    color: #c6dff5;
+    background-color: #0d1117; 
+    font-size: 20px;
+    margin: 0px;
+    margin-left: 8px;
+    padding: 0px;
+}
+section p:first-child {
+    font-size: 30px;
+    text-align: center;
+}
+section a div {
+    background:
+        linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
+        url(/pantheverse/pantheverse.png);
+    height: 350px;
+    width: 300px;
+    float: left;
+    border: solid 3px rgb(40, 18, 82);
+    margin: 10px;
+}
+section a div p:first-child {
+    font-weight: bold;
+    font-size: 42px;
+}
+section a div.new {
+    color: rgb(54, 175, 159);
+}
+section a div.old {
+    color: rgb(74, 91, 241);
+}
+section a div pre:nth-child(2) {
+    font-size: 24px;
+}
