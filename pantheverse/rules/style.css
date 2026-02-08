@@ -1,0 +1,54 @@
+body {
+    color: #c6dff5;
+    background-color: #0d1117; 
+    font-size: 25px;
+    margin-left: 8px;
+    padding: 0px;
+}
+header * {
+    display: inline;
+}
+header div {
+    overflow: auto;
+    float: right;
+}
+.space {
+    margin: 8px;
+    margin-bottom: 15px;
+}
+a {
+    text-decoration: none;
+}
+a h1 {
+    text-decoration: none;
+}
+nav a {
+    color: rgb(196, 243, 174);
+    margin: 3px;
+}
+nav a:hover {
+    color: rgb(44, 175, 153);
+}
+nav a:active {
+    color: green;
+}
+h1 {
+    font-size: 50px;
+    color: rgb(14, 108, 145);
+}
+h1:hover {
+    color: rgb(44, 175, 153);
+}
+h1:active {
+    color: green;
+}
+.bigtext {
+    font-size: 30px;
+    font-weight: bold;
+}
+.red {
+    color: red;
+}
+footer pre {
+    text-align: right;
+}
