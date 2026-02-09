@@ -30,7 +30,7 @@ section a div.new {
 section a div.old {
     color: rgb(74, 91, 241);
 }
-section a div.trial {
+section a div.project {
     color: red;
 }
 section a div pre:nth-child(2) {
