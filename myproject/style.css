@@ -1,0 +1,29 @@
+body {
+    color: #c6dff5;
+    background-color: #0d1117; 
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 8px;
+    padding: 0px;
+}
+header h1 {
+    color: red;
+    font-size: 40px;
+}
+a {
+    text-decoration: none;
+}
+section a div {
+    background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)),
+        url(/mouseclick.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 220px;
+    height: 250px;
+}
+section a div p {
+    color: red;
+    font-size: 35px;
+    text-align: center;
+}
