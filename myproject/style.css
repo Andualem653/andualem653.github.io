@@ -13,7 +13,7 @@ header h1 {
 a {
     text-decoration: none;
 }
-section a div {
+section a div.click {
     background:
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)),
         url(/mouseclick.png);
@@ -21,6 +21,19 @@ section a div {
     background-size: cover;
     width: 220px;
     height: 250px;
+    margin: 20px;
+    float: left;
+}
+section a div{
+    background:
+        linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)),
+        url(/images/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 220px;
+    height: 250px;
+    margin: 20px;
+    float: left;
 }
 section a div p {
     color: red;
