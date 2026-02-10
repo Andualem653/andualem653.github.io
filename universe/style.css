@@ -1,0 +1,38 @@
+body {
+    color: #97d8eb;
+    background-color: #06050e; 
+    font-size: 20px;
+    margin: 0px;
+    margin-left: 8px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+}
+section h2 {
+    font-size: 40px;
+    text-align: center;
+}
+section a div {
+    width: 220px;
+    height: 250px;
+    background:
+        linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+        url(/images/universe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    margin-right: 12px;
+    float: left;
+}
+section a div p {
+    text-align: center;
+    font-size: 28px;
+    color: rgb(15, 148, 119);
+}
+section a div p:first-child {
+    font-size: 35px;
+    margin-top: 20px;
+    font-weight: bold;
+}
