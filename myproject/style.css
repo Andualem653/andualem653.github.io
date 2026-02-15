@@ -7,13 +7,14 @@ body {
     padding: 0px;
 }
 header h1 {
-    color: red;
+    color: rgba(124, 238, 18, 0.945);
     font-size: 40px;
 }
 a {
     text-decoration: none;
 }
 section a div.click {
+    color: rgb(253, 10, 10);
     background:
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)),
         url(/mouseclick.png);
@@ -23,6 +24,18 @@ section a div.click {
     height: 250px;
     margin: 20px;
     float: left;
+}
+section a div.home {
+    color: rgb(58, 255, 58);
+}
+section a div.calc {
+    background:
+        linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+        url(/images/calculator.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(2, 247, 255);
 }
 section a div{
     background:
@@ -36,7 +49,9 @@ section a div{
     float: left;
 }
 section a div p {
-    color: red;
     font-size: 35px;
     text-align: center;
+}
+section a div p:last-child {
+    font-size: 30px;
 }
